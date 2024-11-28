@@ -6,6 +6,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+
 # C extensions
 *.so
 
@@ -17,6 +18,8 @@ dist/
 downloads/
 eggs/
 .eggs/
+.venv/
+.ruff_cache/
 lib/
 lib64/
 parts/
@@ -115,3 +118,6 @@ media/*
 
 # draft files
 */drafts/*
+
+# docker
+docker-compose.override.yml
